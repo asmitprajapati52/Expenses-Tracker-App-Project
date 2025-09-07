@@ -22,6 +22,7 @@ btn.addEventListener("click",()=>{
         return;
     }
     let row=document.createElement("tr");
+    row.classList.add("row");
 
     row.innerHTML=`<td>${serial++}</td>
     <td>${Name}</td>

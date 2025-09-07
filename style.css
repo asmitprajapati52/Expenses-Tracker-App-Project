@@ -116,12 +116,15 @@ input, select{
     width: 100%;
     padding: 10px;
     border-radius: 10px;
-    background: orangered;
+    background: rgb(255, 251, 0);
     font-size: 1rem;
     margin-top:10px;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 #btn:hover{
-    background:red;
+    background:rgb(255, 153, 0);
+}
+.row{
+    background-color:rgb(192, 147, 237);
 }
