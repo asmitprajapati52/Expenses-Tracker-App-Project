@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f9;
+}
+.app{
+    width: 900px;
+    padding: 20px;
+    /* border: solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+#Income {
+  color: green;
+  font-weight: bold;
+}
+
+#Expenses {
+  color: red;
+  font-weight: bold;
+}
+.first{
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.first-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin:20px;
+    text-align: center;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sec{
+    flex: 2;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background-color: coral;
+}
+.sec h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+
+thead {
+  background: #66cc66;
+  color: #000;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  gap: 10px;
+}
+tbody{
+    padding: 20px;
+}
+
+.third{
+    flex: 1;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+   padding: 2rem;
+   border-radius: 10px;
+   background-color: coral;
+}
+.third h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
+#Entrytype{
+    width: 100%;
+    padding: 10px;
+}
+input, select{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+#btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: orangered;
+    font-size: 1rem;
+    margin-top:10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#btn:hover{
+    background:red;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+
+    <!-- first box -->
+
+    <div class="first">
+        <h1>✔Balance: <span id="Balance">0</span></h1>
+        <div class="first-1">
+            <h3>Total Income: <span id="Income">0</span></h3>
+        <h3>Total Expenses: <span id="Expenses">0</span></h3>
+        </div>
+    </div>
+
+    <div class="bigbox">
+
+      <!-- second box -->
+    <div class="sec">
+        <h2>Expenses</h2>
+        <table>
+          <thead>
+          <tr>
+            <th>S.NO.</th>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="content"></tbody>
+        </table>
+    </div>
+
+    <!-- third box -->
+
+    <div class="third">
+      <h2>ADD NEW</h2>
+      <label id="l1">Entry Type:</label>
+      <select id="Entrytype">
+        <option value="Income">Income</option>
+        <option value="Expenses">Expenses</option>
+      </select>
+      <label id="l2" for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter Name">
+      <label id="l3" for="amount">Amount</label>
+      <input type="number" id="amount" placeholder="Enter Amount">
+      <button id="btn">Add Expense</button>
+    </div>
+    </div>
+  </div>
+</body>
+<script src="script.js "></script>
+</html>
