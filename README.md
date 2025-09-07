@@ -1,0 +1,1 @@
+This is the expenses tracker app which will maintain your balance and show where did u spend your money and how much you saved in a month or a year.
